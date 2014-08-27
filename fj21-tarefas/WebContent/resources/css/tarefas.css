@@ -1,0 +1,104 @@
+p {
+  color: blue; 
+  background-color: yellow;
+}
+
+corpo  {
+  font-family :  "Arial" ,  sans-serif ;
+	padding-top :  20px ;
+}
+ 
+h1 , h2 , h3  {
+	text-shadow :  2px  1px  5px  cinza ;
+}
+ 
+input ,  textarea  {
+	background-color :  #eef ;
+	fronteira - raio :  10px ;
+	margin-bottom :  10px ;
+	preenchimento :  2px  5px ;
+}
+ 
+entrada [ tipo = submeter ]  {
+	fundo :  #eef ;
+	caixa - sombra :  0  1px  5px  #333 ;
+	border :  0 ;
+	preenchimento :  7px ;
+	border :  sólida  #aaf ;
+	fronteira - raio :  10px ;
+}
+ 
+entrada [ tipo = submeter ] : hover  {
+	background-color :  #559 ;
+	cor :  branco ;
+}
+ 
+extensão [ id * = erros ]  {
+	cor :  vermelho ;
+	border :  3px  sólidos  #ff0000 ;
+	margem :  3px  0px ;
+	Display :  linha - bloco ;
+}
+ 
+corpo > um  {
+	background-color :  # eef ;
+	margin-top :  3px ;
+	Display :  linha - bloco ;
+	preenchimento :  3px ;
+	border :  sólida  #aaf ;
+	fronteira - raio :  10px ;
+	text-decoration :  nenhum ;
+}
+ 
+corpo > a : hover  {
+	background-color :  #559 ;
+	cor :  branco ;
+}
+ 
+corpo  da tabela  tr : hover  {
+	background-color :  #cfc ;
+}
+ 
+mesa  {
+	border-collapse :  colapso ;
+	text-align :  esquerda ;
+}
+ 
+mesa  td  {
+	preenchimento :  3px  20px ;
+}
+ 
+mesa  ª  {
+	preenchimento :  3px  20px ;
+	background-color :  #aaf ;
+}
+ 
+mesa de  um  {
+	letter-spacing :  2px ;
+	font-size :  14px ;
+}
+ 
+mesa  a : hover  {
+	cor :  vermelho ;
+}
+ 
+mesa  tr : nth-child ( 2n )  {
+	background-color :  #eef ;
+}
+ 
+selecionar  {
+	fundo :  #eef ;
+	caixa - sombra :  0  1px  5px  # 333 ;
+	border :  0 ;
+	border :  sólida  #aaf ;
+	fronteira - raio :  4px ;
+	margin-bottom :  5px ;
+}
+ 
+opcao  {
+	fundo :  #aae ;
+	caixa - sombra :  0  1px  5px  # 333 ;
+	border :  0 ;
+	border :  sólida  #aaf ;
+	fronteira - raio :  4px ;
+}
